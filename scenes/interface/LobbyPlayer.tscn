@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://gqvoi738n1x3"]
+
+[ext_resource type="Script" path="res://scripts/interface/LobbyPlayer.gd" id="1"]
+[ext_resource type="FontFile" uid="uid://caaahe23vg56r" path="res://assets/fonts/m5x7.ttf" id="1_i5nec"]
+
+[node name="Control" type="Label"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_fonts/font = ExtResource("1_i5nec")
+theme_override_font_sizes/font_size = 48
+text = "gamepad"
+script = ExtResource("1")

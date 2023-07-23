@@ -1,0 +1,215 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwbjxi8m57an3"]
+
+[ext_resource type="FontFile" uid="uid://caaahe23vg56r" path="res://assets/fonts/m5x7.ttf" id="1_l1wyb"]
+[ext_resource type="Script" path="res://scripts/interface/controls.gd" id="1_xm8k0"]
+
+[node name="controls" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xm8k0")
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1344.0
+offset_bottom = 768.0
+mouse_filter = 2
+color = Color(0, 0.235294, 0.341176, 1)
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_left = 128.0
+offset_top = 8.0
+offset_right = 1216.0
+offset_bottom = 636.0
+columns = 3
+
+[node name="Label" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Action"
+
+[node name="Label2" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Keyboard"
+
+[node name="Label3" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Controller
+(PS / XBOX)"
+
+[node name="Label4" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Left"
+
+[node name="Label5" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Left"
+
+[node name="Label6" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "D-pad left"
+
+[node name="Label7" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Right"
+
+[node name="Label8" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Right"
+
+[node name="Label9" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "D-pad right"
+
+[node name="Label10" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Soft Drop"
+
+[node name="Label11" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Down"
+
+[node name="Label12" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "D-pad down"
+
+[node name="Label13" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Hard Drop"
+
+[node name="Label14" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Space"
+
+[node name="Label15" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "D-pad up"
+
+[node name="Label16" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Hold"
+
+[node name="Label17" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Shift / C"
+
+[node name="Label18" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "R1 / RB"
+
+[node name="Label19" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Rotate Clockwise"
+
+[node name="Label20" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Up / X"
+
+[node name="Label21" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Circle / B"
+
+[node name="Label22" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Rotate
+Counter-Clockwise"
+
+[node name="Label23" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Ctrl / Z"
+
+[node name="Label24" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Cross / A"
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -96.0
+offset_top = 296.0
+offset_right = 96.0
+offset_bottom = 361.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_l1wyb")
+theme_override_font_sizes/font_size = 72
+text = "Back"
